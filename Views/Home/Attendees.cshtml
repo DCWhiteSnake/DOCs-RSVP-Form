@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Reservation>
+
+@{
+    Layout = null;
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Attendees</title>
+    <link href="~/CSS/Attendees.css" rel="stylesheet" />
+</head>
+<body>
+    @*Make table look better*@
+    <table style="width:100%">
+        <tr>
+            <th>S/N</th>
+            <th>Name</th>
+            <th>Will Bring Drinks</th>
+        </tr>
+        @{int x = 0; }
+        @foreach (var item in Model)
+        {
+            string s = item.BringingDrinks == true ? "Yes" : "No";
+            @if (item.BringingDrinks == true)
+            {
+                x++;
+                
+                <tr>
+                    <td>@x</td>
+                    <td>@item.Name</td>
+                    <td style="color:purple;background-color:green;">
+                        @s
+                    </td>
+                </tr>
+            }
+            else
+            {
+                x++;
+                <tr>
+                    <td>@x</td>
+                    <td>@item.Name</td>
+                    <td>@s</td>
+                </tr>
+            }
+        }
+    </table>
+</body>
+</html>

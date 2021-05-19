@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOCs_RSVP_Form", "DOCs_RSVP_Form.csproj", "{DCFBB949-F2E5-4861-8842-7EC03ACCAE07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCFBB949-F2E5-4861-8842-7EC03ACCAE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFBB949-F2E5-4861-8842-7EC03ACCAE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFBB949-F2E5-4861-8842-7EC03ACCAE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFBB949-F2E5-4861-8842-7EC03ACCAE07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B74BC5F-D7CC-46B2-8D36-BA7E60A19756}
+	EndGlobalSection
+EndGlobal

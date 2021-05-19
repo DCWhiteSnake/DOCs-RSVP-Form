@@ -1,0 +1,5 @@
+﻿
+/* make table look better*/
+table, th, td {
+    border: 1px solid black
+}

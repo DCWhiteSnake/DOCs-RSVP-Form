@@ -1,0 +1,25 @@
+﻿body {
+    width: 80%;
+    margin: auto;
+    background-color: #101820FF;
+    font-size: large;
+}
+
+div {
+    margin: auto;
+    font-family: Helvetica, sans-serif;
+    color: #FBDE44FF;
+}
+
+labal {
+    color: #FBDE44FF;
+}
+
+form {
+    color: #FBDE44FF;
+}
+
+.warning {
+    color: red;
+    font-family: 'Times New Roman', Times, serif
+}
